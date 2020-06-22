@@ -59,7 +59,7 @@ class NewRelicMetrics < Sensu::Plugin::Metric::CLI::Graphite
 
     url = URI.parse(rpm)
 
-    res = Net::HTTP.start(url.host, url.port, :use_ssl => true) do |http|
+    res = Net::HTTP.start(url.host, url.port, use_ssl: true) do |http|
       req = Net::HTTP::Get.new('/accounts.xml?include=application_health')
       req.add_field('x-api-key', config[:apikey])
       http.request(req)
