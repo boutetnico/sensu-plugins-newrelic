@@ -1,12 +1,11 @@
 ## Sensu-Plugins-newrelic
 
-[ ![Build Status](https://travis-ci.org/sensu-plugins/sensu-plugins-newrelic.svg?branch=master)](https://travis-ci.org/sensu-plugins/sensu-plugins-newrelic)
-[![Gem Version](https://badge.fury.io/rb/sensu-plugins-newrelic.svg)](http://badge.fury.io/rb/sensu-plugins-newrelic)
-[![Code Climate](https://codeclimate.com/github/sensu-plugins/sensu-plugins-newrelic/badges/gpa.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-newrelic)
-[![Test Coverage](https://codeclimate.com/github/sensu-plugins/sensu-plugins-newrelic/badges/coverage.svg)](https://codeclimate.com/github/sensu-plugins/sensu-plugins-newrelic)
-[![Dependency Status](https://gemnasium.com/sensu-plugins/sensu-plugins-newrelic.svg)](https://gemnasium.com/sensu-plugins/sensu-plugins-newrelic)
+[![Gem Version](https://badge.fury.io/rb/sensu-plugins-newrelic-boutetnico.svg)](https://badge.fury.io/rb/sensu-plugins-newrelic-boutetnico.svg)
+[![Sensu Bonsai Asset](https://img.shields.io/badge/Bonsai-Download%20Me-brightgreen.svg?colorB=89C967&logo=sensu)](https://bonsai.sensu.io/assets/boutetnico/sensu-plugins-newrelic)
 
-## Functionality
+## This is an unofficial fork
+
+This fork is automatically tested, built and published to [RubyGems](https://rubygems.org/gems/sensu-plugins-newrelic-boutetnico/) and [Bonsai](https://bonsai.sensu.io/assets/boutetnico/sensu-plugins-newrelic).
 
 ## Files
  * bin/metrics-newrelic.rb
