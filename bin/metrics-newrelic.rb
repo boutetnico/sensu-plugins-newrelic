@@ -68,6 +68,9 @@ class NewRelicMetrics < Sensu::Plugin::Metric::CLI::Graphite
     stats = Crack::XML.parse(res.body)
 
     app = stats['accounts'].first['applications'].find { |v| v['name'] == config[:appname] }
+
+    warning "NewRelic API sent an empty response" if app.nil?
+
     app['threshold_values'].each do |v|
       metric_name = v['name'].gsub(/\s+/, '_').downcase
       output "#{config[:scheme]}.#{metric_name}", v['metric_value']
